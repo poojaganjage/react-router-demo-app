@@ -35,7 +35,8 @@ function Contact() {
                                 onChange={handleChange} 
                                 onBlur={handleBlur} 
                             />
-                            {errors.fullname && touched.fullname ? <div className='text-danger'>{errors.fullname}</div> : null}
+                            {errors.fullname && touched.fullname ? <div className='text-danger'>{errors.fullname}</div> 
+                            : null}
                         </div>
                     </div>
                     <div className='col'>
